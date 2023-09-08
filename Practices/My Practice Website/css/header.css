@@ -1,0 +1,48 @@
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    z-index: 100;
+    background-color: rgb(159, 220, 242);
+
+    
+}
+
+.left-section {
+    align-self: center;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.logo-title {
+    margin-top: 15px;
+}
+.logo-text {
+    margin: 0;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: Arial;
+   
+}
+
+.middle-section {
+    flex: 1;
+}
+
+.right-section {
+    width: 400px;
+    align-self: start;
+    margin-right: 0;
+    
+}
